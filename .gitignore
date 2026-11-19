@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+venv/
+
+
+git init -b main
+git add .
+git status
+git commit -m "Add modular FastAPI + PostgreSQL ETL starter with Docker Compose"
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/aayush-satna/fastapi-postgres-etl-starter.git
+git push -u origin main
